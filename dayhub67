@@ -1,3 +1,5 @@
+-- Made by kylosilly and netpa :3 (space hub pls dont skid thanks thier hwid and keys list: https://pastebin.com/vCwfFmP0)
+
 local repo = 'https://raw.githubusercontent.com/KINGHUB01/Gui/main/'
 
 local Library = loadstring(game:HttpGet(repo ..'Gui%20Lib%20%5BLibrary%5D'))()
@@ -5,7 +7,7 @@ local ThemeManager = loadstring(game:HttpGet(repo ..'Gui%20Lib%20%5BThemeManager
 local SaveManager = loadstring(game:HttpGet(repo ..'Gui%20Lib%20%5BSaveManager%5D'))()
 
 local Window = Library:CreateWindow({
-    Title = 'Day hub',
+    Title = 'Fisch V1.2.3 (BETA)',
     Center = true,
     AutoShow = true,
     TabPadding = 8,
@@ -25,7 +27,7 @@ local WatermarkConnection = game:GetService('RunService').RenderStepped:Connect(
         FrameCounter = 0;
     end;
 
-    Library:SetWatermark(('Day hub | %s fps | %s ms'):format(
+    Library:SetWatermark(('day Hub V1.2.3 | %s fps | %s ms'):format(
         math.floor(FPS),
         math.floor(game:GetService('Stats').Network.ServerStatsItem['Data Ping']:GetValue())
     ));
@@ -738,12 +740,12 @@ local SettingsGroup = Tabs.Settings:AddLeftGroupbox('Settings')
 local CreditsGroup = Tabs.Settings:AddRightGroupbox('Credits')
 
 CreditsGroup:AddLabel('Made by jvrmy2handsome')
-CreditsGroup:AddLabel('Made with love and hate :3')
+CreditsGroup:AddLabel('Made with luaaaa')
 
 local DiscordButton = CreditsGroup:AddButton({
     Text = 'Copy Fisch Discord Link',
     Func = function()
-        setclipboard('https://discord.gg/nEKgmFEQGW')
+        setclipboard('https://discord.gg/DEkfE99JFh')
     end,
     DoubleClick = false,
     Tooltip = 'Join our fisch discord!'
@@ -752,7 +754,7 @@ local DiscordButton = CreditsGroup:AddButton({
 local DiscordButton2 = CreditsGroup:AddButton({
     Text = 'Copy Main Discord link',
     Func = function()
-        setclipboard('https://discord.gg/nEKgmFEQGW')
+        setclipboard('https://discord.gg/VudXCDCaBN')
     end,
     DoubleClick = false,
     Tooltip = 'Join our main discord!'
